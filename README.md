@@ -1,2 +1,2 @@
 # com411
-university work for COM41- problem solving through programming
+university work for COM411- Problem Solving through Programming
