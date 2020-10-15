@@ -1,2 +1,2 @@
 language = "python3"
-run = "python basics/repetitions/for_loop/count_down.py"
+run = "python basics/repetitions/for_loop/range.py"
