@@ -1,2 +1,2 @@
 language = "python3"
-run = "python basics/repetitions/for_loop/reverse.py"
+run = "python basics/repetitions/for_loop/membership_operators.py"
