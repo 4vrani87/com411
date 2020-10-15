@@ -1,2 +1,2 @@
 language = "python3"
-run = "python basics/repetitions/while_loop/sum_100.py"
+run = "python basics/repetitions/while_loop/sum_user_numbers.py"
