@@ -1,2 +1,2 @@
 language = "python3"
-run = "python basics/repetitions/nested_loop/nesting.py"
+run = "python basics/functions/ascii_code.py"
