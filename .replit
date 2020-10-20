@@ -1,2 +1,2 @@
 language = "python3"
-run = "python basics/data/lists/simple_list.py"
+run = "python basics/output/ascii_art.py"
