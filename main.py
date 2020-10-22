@@ -4,6 +4,8 @@ import basics.output.multiline_message as multiline_message
 
 def run_block_a():
     print("Which program in 'Block A: Basics' do you wish to run?")
+    print("***********************************")
+    print("simple_message or multiline_message")
     response = input()
     if (response == "simple_message"):
         simple_message.run()
@@ -16,7 +18,13 @@ def run():
     is_running = True
 
     while(is_running):
-        print("What would you like to do?")
+        print("""
+ _   _      _ _       _ _
+| | | | ___| | | ___ | | |
+| |_| |/ _ \ | |/ _ \| | |
+|  _  |  __/ | | (_) |_|_|
+|_| |_|\___|_|_|\___/(_|_)""")
+        print("\n\nWhat would you like to do?")
         print("[a] Run 'Block A: Basics' programs")
         print("[q] Quit")
         response = input()
