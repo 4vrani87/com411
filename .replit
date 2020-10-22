@@ -1,2 +1,2 @@
 language = "python3"
-run = "python data/tuples/simple_tuple.py"
+run = "python data/tuples/function_tuple.py"
