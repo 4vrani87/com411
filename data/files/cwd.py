@@ -4,11 +4,12 @@ def cwd():
   print(f"The Current Working Folder Path: {path}")
   print("The folder contains the following:")
   
-  #for file in os.listdir(path):
-  print("cwd.py")
+  for file in os.listdir(path):
+    print(file)
 def run():
   print("\nProcessing...")
   cwd()
 run()
 
 
+ 
