@@ -1,2 +1,2 @@
 language = "python3"
-run = "python data/files/txt/write.py"
+run = "python data/files/txt/generate.py"
