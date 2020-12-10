@@ -23,8 +23,15 @@ class Robot:
   # An instance method
   def display(self):
     print(f"I am {self.name}")
+  def __repr__(self):
+    return f'robot(name={self.name}, age={self.age}), energy = {self.energy}'
+
+  def __str__(self):
+    return f'Robot {self.name} is {self.age} years old and my energy is {self.energy}.'
   
 if (__name__ == "__main__"):
   robot = Robot()
   robot.display()
   Robot.the_laws()
+  print(robot)
+  print(repr(robot))
