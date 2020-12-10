@@ -1,2 +1,2 @@
 language = "python3"
-run = "python oop/planet.py"
+run = "python oop/universe.py"
